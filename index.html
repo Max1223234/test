@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skytell</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-top header-flex">
+                <div class="logo">
+                    <a class="logo-link" href="#">
+                        <img class="logo-img" src="images/header/logo.svg" alt="logo">
+                    </a>
+                    <p class="logo-text">
+                        Аутсорсинговый контактный центр
+                    </p>
+                </div>
+                <div class="header-top__contacts">
+                    <p class="header-top__contacts-watsapp">Написать в Whatsapp</p>
+                    <button class="header-top__contacts-btn">Заказать звонок</button>
+                    <div class="header-top__contacts-numbers">
+                        <p class="header-top__contacts-numbers-text">Звоните</p>
+                        <p class="header-top__contacts-numbers-num"> +7 (987) 777 80 80</p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom header-flex">
+                <button class="menu-bars">
+                    <img class="menu-bars-img" src="images/header/icon-menu.svg" alt="menu">
+                </button>
+                <nav class="nav">
+                   
+                    <ul class="nav__list">
+                        <img class="nav__list-close" src="images/header/modal-close.svg" alt="img close">
+                        <li class="nav__item"><a class="nav__link" href="#">Услуги</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Проекты</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Кейсы</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Клиенты</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Вакансии</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header-in">
+                    <a class="header-in__icon" href="#">
+                        <img class="header-in__icon-img" src="images/header/icon-in.svg" alt="icon in">
+                    </a>
+                    <p class="header-in__text">Вход</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-modal">
+        <img class="header-modal__close" src="images/header/modal-close.svg" alt="btn close">
+        <div class="header-modal__content">
+            <h2 class="header-modal__content-title">Заказать звонок</h2>
+            <p class="header-modal__content-text">Оставьте имя и номер телефона, а мы вам перезвоним</p>
+            <form action="#">
+                <div class="header-modal__block-form">
+                    <div class="header-modal__block-inputs">
+                        <input class="header-modal__block-input" type="text" placeholder="Ваше имя*">
+                        <input class="header-modal__block-input" type="number" placeholder="Ваш номер телефона*">
+                    </div>
+                    <input class="header-modal__check" id="block-form-checkbox" type="checkbox">
+                    <label class="header-modal__block-form-text" for="block-form-checkbox">Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных*</label>
+                    <div class="header-modal__block-form-btn">
+                        <input class="header-modal-form-btn" value="Отправить" type="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <section class="telemarketing">
+        <div class="container">
+            <div class="telemarketing-info">
+                <div class="telemarketing-info__text-block">
+                    <h1 class="telemarketing-info__text-block-title">
+                        <p class="telemarketing-info__text-block-title-text">Надежный контактный центр</p>
+                        для исходящего и входящего телемаркетинга
+                    </h1>
+                    <p class="telemarketing-info__text-block-text">В короткие сроки масштабируем мощности, организуем обучение операторов и запустим ваш проект.</p>
+                    <button class="btn telemarketing-info__text-block-btn">Отправить заявку</button>
+                </div>
+                <div class="telemarketing-info__block-img">
+                    <img class="telemarketing-info__img" src="images/telemarketing/telemarketing-img.png" alt="telemarketing-img">
+                </div>
+            </div>
+            <div class="telemarketing-info__about">
+                <div class="telemarketing-info__about-item">
+                    <p class="telemarketing-info__about-item-number">1<span class="telemarketing-info__about-item-number-sign">+</span></p>
+                    <p class="telemarketing-info__about-item-text">млн принятых звонков</p>
+                </div>
+                <div class="telemarketing-info__about-item">
+                    <p class="telemarketing-info__about-item-number">3</p>
+                    <p class="telemarketing-info__about-item-text">контактных центра в РФ</p>
+                </div>
+                <div class="telemarketing-info__about-item">
+                    <p class="telemarketing-info__about-item-number">13<span class="telemarketing-info__about-item-number-sign">+</span></p>
+                    <p class="telemarketing-info__about-item-text">лет опыта в индустрии</p>
+                </div>
+                <div class="telemarketing-info__about-item">
+                    <p class="telemarketing-info__about-item-number">3000<span class="telemarketing-info__about-item-number-sign">+</span></p>
+                    <p class="telemarketing-info__about-item-text">операторов сейчас в линии</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section class="video"> 
+        <div class="container">
+            <div class="video__inner">
+                <div class="video__info">
+                    <h2 class="title video__title">Мы не оставим без внимания ни одного Вашего клиента!</h2>
+                    <p class="video__text">Предоставляем доступ к личный кабинет и записи разговоров для анализа качества работы операторов</p>
+                </div>
+                <div class="video__video">
+                    <div class="video__video-conteiner">
+                        <iframe class="video__video-content" width="100%" height="315" src="https://www.youtube.com/embed/5uWffB9gLAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <img class="services-before" src="images/services/services-after.png" alt="que">
+        <div class="services__wrapper">
+            <div class="services__item services__item-titles">
+                <h2 class="services__item-title">Услуги нашего контактного центра</h2>
+                <p class="services__item-text">Более 300 операторов с большим опытом готовы работать на вас круглосуточно 365 дней в году оказывая услуги:</p>
+            </div>
+            <div class="servisec__item services__item-img"></div>
+            <div class="services__item services__item-info-1">
+                <h3 class="services__item-info-title">Горячая линия</h3>
+                <p class="services__item-info-text">Прием звонков для предоставления информации об организации, продуктах и услугах  в режиме 24/7.</p>
+            </div>
+            <div class="services__item services__item-info-2">
+                <h3 class="services__item-info-title">Информирование</h3>
+                <p class="services__item-info-text">Возможность сообщить клиенту об акциях,  специальном предложении или уведомить о событиях</p>
+            </div>
+            <div class="services__item services__item-info-3">
+                <h3 class="services__item-info-title">Продажи по телефону</h3>
+                <p class="services__item-info-text">Привлечение новых клиентов и повторные продажи с помощью эффективных техник общения с клиентом </p>
+            </div>
+            <div class="services__item services__item-info-4">
+                <h3 class="services__item-info-title">Соц. опросы</h3>
+                <p class="services__item-info-text">Проведем опросы населения или ваших клиентов с заполнением анкетных данных</p>
+            </div>
+            <div class="services__item services__item-info-5">
+                <h3 class="services__item-info-title">Актуализация баз данных</h3>
+                <p class="services__item-info-text">Проверка актуальности номеров и данных клиента</p>
+            </div>
+            <div class="services__item services__item-info-6">
+                <h3 class="services__item-info-title">Входящий телемаркетинг</h3>
+                <p class="services__item-info-text">Консультации и продажа товаров и услуг при входящих звонках от клиентов</p>
+            </div>
+           <div class="services__item services__item-info-7">
+                <h3 class="services__item-info-title">Голосовой бот</h3>
+                <p class="services__item-info-text services__item-info-text-7">Автоматизация телефонных коммуникация с клиентами, надежная и мощная замена живому оператору</p>
+           </div>
+           <div class="services__item-price">
+               <div class="services__item-price-box">
+                <h3 class="services__item-price-title">Хотите узнать цену?</h3>
+                <p class="services__item-price-title-text">Давайте мы рассчитаем бюджет Вашего проекта</p>
+                <button class="btn services__item-price-btn">Отправить заявку</button>
+                <img class="services__item-price-arrow" src="images/services/arrow.svg" alt="arrow">
+               </div>
+           </div>
+           <div class="services__item services__item-info-8">
+            <h3 class="services__item-info-title">Поддержка в чатах</h3>
+            <p class="services__item-info-text services__item-info-text-8">Консультация и информирование пользователей и клиентов компании в мессенджерах, чатах и по электронной почте </p>
+       </div>
+        </div>
+    </section>
+    <section class="project">
+        <div class="container">
+            <div class="titles">
+                <h2 class="titles__title title">Запускаем проекты в короткие сроки</h2>
+                <p class="titles__subtitle">Срок, от заключения договора, до выхода оператора в линию, может составлять от 3 дней, в зависимости от сложности проекта. </p>
+            </div>
+            <div class="project-info">
+                <div class="project-info__item">
+                    <img class="project-info__item-img" src="images/project/project-item-1.png" alt="project pic">
+                    <div class="project-info__item-info">
+                        <h3 class="project-info__item-info-title">Диспетчерские службы</h3>
+                        <p class="project-info__item-info-text">Ответим на звонок клиента службы такси, грузоперевозок или аренды спец. техники, проконсультируем и оформим заказ</p>
+                    </div>
+                </div>
+                <div class="project-info__item">
+                    <img class="project-info__item-img" src="images/project/project-item-2.png" alt="project pic">
+                    <div class="project-info__item-info">
+                        <h3 class="project-info__item-info-title">Курьерские службы</h3>
+                        <p class="project-info__item-info-text">Ответим на вопросы клиентов курьерской службы товаров, еды, посылок, документов, оформим заказ и проинформируем о событиях по доставке </p>
+                    </div>
+                </div>
+                <div class="project-info__item">
+                    <img class="project-info__item-img" src="images/project/project-item-3.png" alt="project pic">
+                    <div class="project-info__item-info">
+                        <h3 class="project-info__item-info-title">Финансовые учреждения</h3>
+                        <p class="project-info__item-info-text">Прием входящих обращений консультирование по кредитным продуктам оформление заявок, перезвон клиентам проверка заявки на кредит</p>
+                    </div>
+                </div>
+                <div class="project-info__item">
+                    <img class="project-info__item-img" src="images/project/project-item-4.png" alt="project pic">
+                    <div class="project-info__item-info">
+                        <h3 class="project-info__item-info-title">Медицина</h3>
+                        <p class="project-info__item-info-text">Ведем запись на прием в врачу консультирующим по ценам, предлагаем маркетинговые акции, перезваниваем клиентам напоминаем о записи</p>
+                    </div>
+                </div>
+                <div class="project-info__item">
+                    <img class="project-info__item-img" src="images/project/project-item-5.png" alt="project pic">
+                    <div class="project-info__item-info">
+                        <h3 class="project-info__item-info-title">Рестораны и кафе</h3>
+                        <p class="project-info__item-info-text">Примем заказ на доставку, проведем рекламную компанию по старым клиентам вернем к сотрудничеству</p>
+                    </div>
+                </div>
+                <div class="project-info__item">
+                    <img class="project-info__item-img" src="images/project/project-item-6.png" alt="project pic">
+                    <div class="project-info__item-info">
+                        <h3 class="project-info__item-info-title">Автосалоны</h3>
+                        <p class="project-info__item-info-text">Позвоним вашим клиентам пригласим на ОТ прими заказ на ТО или диагностику, переведем на нужного сотрудника автосалона</p>
+                    </div>
+                </div>
+                <div class="project-info__item">
+                    <img class="project-info__item-img" src="images/project/project-item-7.png" alt="project pic">
+                    <div class="project-info__item-info">
+                        <h3 class="project-info__item-info-title">Интернет-Магазины</h3>
+                        <p class="project-info__item-info-text">Примем и подтвердим заказ клиента сверим все данные по товару и месту заказа, перезвоним клиенту по прибытию на пункт выдачи</p>
+                    </div>
+                </div>
+                <div class="project-info__item">
+                    <img class="project-info__item-img" src="images/project/project-item-8.png" alt="project pic">
+                    <div class="project-info__item-info">
+                        <h3 class="project-info__item-info-title">Рекламные кампании</h3>
+                        <p class="project-info__item-info-text">Проведем рекламную кампанию выявим интерес соберем данные</p>
+                    </div>
+                </div>
+                <div class="project-info__item">
+                    <img class="project-info__item-img" src="images/project/project-item-9.png" alt="project pic">
+                    <div class="project-info__item-info">
+                        <h3 class="project-info__item-info-title">Салоны красоты</h3>
+                        <p class="project-info__item-info-text">Запишем на прием к мастеру, проконсультируем по ценам, позвоним клиенту и напомним о записи</p>
+                    </div>
+                </div>
+                <div class="project-info__item">
+                    <img class="project-info__item-img" src="images/project/project-item-10.png" alt="project pic">
+                    <div class="project-info__item-info">
+                        <h3 class="project-info__item-info-title">Фитнес клубы</h3>
+                        <p class="project-info__item-info-text">Оперативно примем звонки запишем на встречу с менеджером, обзвоним ушедших клиентов проведем в клуб обратно</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-work"> 
+        <div class="container">
+            <div class="titles">
+                <h2 class="titles__title title">Убедитесь в качестве нашей работы</h2>
+                <p class="titles__subtitle">Вы можете прослушать записанные разговоры наших сотрудников и оценить высокий уровень оказания услуг контактного центра</p>
+            </div>
+            <div class="block-our-work">
+                <div class="our-work-music">
+                    <div class="our-work-music__item">
+                        <h3 class="our-work-music__item-title">Продажа кредитных карт</h3>
+                        <div class="player">
+                            <audio class="audio" src="images/audio/king.mp3"></audio>
+                            <div class="player__buttons">
+                                <div class="player__btn player__play player-img__src"><img class="player__btn-img" src="images/our-work/play.svg" alt="button play"></div>
+                            </div>
+                           <div class="player__progress-container">
+                               <div class="player__progress"></div>
+                           </div>
+                           <p class="player__time">5:24</p>
+                        </div>
+                        <h3 class="our-work-music__item-title">Горячая линия медицинской клиники</h3>
+                        <div class="player">
+                            <audio class="audio" src="images/audio/sound.mp3"></audio>
+                            <div class="player__buttons">
+                                <div class="player__btn player__play player-img__src"><img class="player__btn-img" src="images/our-work/play.svg" alt="button play"></div>
+                            </div>
+                           <div class="player__progress-container">
+                               <div class="player__progress"></div>
+                           </div>
+                           <p class="player__time">4:31</p>
+                        </div>
+                        <h3 class="our-work-music__item-title">Опрос населения</h3>
+                        <div class="player">
+                            <audio class="audio" src="images/audio/sound.mp3"></audio>
+                            <div class="player__buttons">
+                                <div class="player__btn player__play player-img__src"><img class="player__btn-img" src="images/our-work/play.svg" alt="button play"></div>
+                            </div>
+                           <div class="player__progress-container">
+                               <div class="player__progress"></div>
+                           </div>
+                           <p class="player__time">1:05</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-work-music">
+                    <div class="our-work-music__item">
+                        <h3 class="our-work-music__item-title">Горячая линия интернет-магазина одежды</h3>
+                        <div class="player">
+                            <audio class="audio" src="images/audio/king.mp3"></audio>
+                            <div class="player__buttons">
+                                <div class="player__btn player__play player-img__src"><img class="player__btn-img" src="images/our-work/play.svg" alt="button play"></div>
+                            </div>
+                           <div class="player__progress-container">
+                               <div class="player__progress"></div>
+                           </div>
+                           <p class="player__time">2:00</p>
+                        </div>
+                        <h3 class="our-work-music__item-title">Диспетчерская служба заказа такси</h3>
+                        <div class="player">
+                            <audio class="audio" src="images/audio/sound.mp3"></audio>
+                            <div class="player__buttons">
+                                <div class="player__btn player__play player-img__src"><img class="player__btn-img" src="images/our-work/play.svg" alt="button play"></div>
+                            </div>
+                           <div class="player__progress-container">
+                               <div class="player__progress"></div>
+                           </div>
+                           <p class="player__time">1:25</p>
+                        </div>
+                        <h3 class="our-work-music__item-title">Горячая линия техподдержка </h3>
+                        <div class="player">
+                            <audio class="audio" src="images/audio/sound.mp3"></audio>
+                            <div class="player__buttons">
+                                <div class="player__btn player__play player-img__src"><img class="player__btn-img" src="images/our-work/play.svg" alt="button play"></div>
+                            </div>
+                           <div class="player__progress-container">
+                               <div class="player__progress"></div>
+                           </div>
+                           <p class="player__time">3:30</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-clients"> 
+        <div class="container">
+            <div class="titles">
+                <h2 class="titles__title title">Наши клиенты</h2>
+                <p class="titles__subtitle">Мы работаем с малым, средним и крупным бизнесом</p>
+            </div>
+            <div class="our-clients-wrapper">
+                <div class="our-clients-wrapper__item">
+                    <img class="our-clients-wrapper__item-img" src="images/clients/clients-1.png" alt="clients img">
+                </div>
+                <div class="our-clients-wrapper__item">
+                    <img class="our-clients-wrapper__item-img" src="images/clients/clients-2.png" alt="clients img">
+                </div>
+                <div class="our-clients-wrapper__item">
+                    <img class="our-clients-wrapper__item-img" src="images/clients/clients-3.png" alt="clients img">
+                </div>
+                <div class="our-clients-wrapper__item">
+                    <img class="our-clients-wrapper__item-img" src="images/clients/clients-4.png" alt="clients img">
+                </div>
+                <div class="our-clients-wrapper__item">
+                    <img class="our-clients-wrapper__item-img" src="images/clients/clients-5.png" alt="clients img">
+                </div>
+                <div class="our-clients-wrapper__item">
+                    <img class="our-clients-wrapper__item-img" src="images/clients/clients-6.png" alt="clients img">
+                </div>
+                <div class="our-clients-wrapper__item">
+                    <img class="our-clients-wrapper__item-img" src="images/clients/clients-7.png" alt="clients img">
+                </div>
+                <div class="our-clients-wrapper__item">
+                    <img class="our-clients-wrapper__item-img" src="images/clients/clients-8.png" alt="clients img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts"> 
+        <div class="container">
+            <div class="contacts-wrapper">
+                <div class="contacts-wrapper__info">
+                    <h4 class="contacts-wrapper__info-title">Наши контакты</h4>
+                    <p class="contacts-wrapper__info-subtitle">Свяжитесь с нами любым удобным способом и мы ответим на Ваши вопросы</p>
+                    <div class="block-contact-info">
+                        <div class="block-contact-info__blocks">
+                            <img class="block-contact-info__blocks-icon" src="images/contacts/phon-icon.png" alt="icon">
+                            <div class="block-contact-info__blocks-icon-text">
+                                <p class="block-contact-info__blocks-icon-text-num">+7 (987) 777-80-80</p>
+                                <p class="block-contact-info__blocks-icon-text-link">Написать в Whatsapp</p>
+                            </div>
+                        </div>
+                        <div class="block-contact-info__blocks">
+                            <img class="block-contact-info__blocks-icon" src="images/contacts/icon-email.png" alt="icon">
+                            <div class="block-contact-info__blocks-icon-text">
+                                <p class="block-contact-info__blocks-icon-text-email">info@skytell.su</p>
+                            </div>
+                        </div>
+                        <div class="block-contact-info__blocks">
+                            <img class="block-contact-info__blocks-icon" src="images/contacts/map-icon.png" alt="icon">
+                            <div class="block-contact-info__blocks-icon-text">
+                                <p class="block-contact-info__blocks-icon-text-city">г. Орск</p>
+                                <p class="block-contact-info__blocks-icon-text-addres">ул Ленинского Комсомола, 45, оф 405</p>
+                            </div>
+                        </div>
+                        <div class="block-contact-info__blocks">
+                            <img class="block-contact-info__blocks-icon" src="images/contacts/map-icon.png" alt="icon">
+                            <div class="block-contact-info__blocks-icon-text">
+                                <p class="block-contact-info__blocks-icon-text-city">г. Оренбург</p>
+                                <p class="block-contact-info__blocks-icon-text-addres">ул. Салмышская 2</p>
+                            </div>
+                        </div>
+                        <div class="block-contact-info__blocks">
+                            <img class="block-contact-info__blocks-icon" src="images/contacts/phon-icon.png" alt="icon">
+                            <div class="block-contact-info__blocks-icon-text">
+                                <p class="block-contact-info__blocks-icon-text-num">г. Клин</p>
+                                <p class="block-contact-info__blocks-icon-text-addres">Ленинградское шоссе, 88-й километр</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts-wrapper__form">
+                    <div class="block-form">
+                        <h4 class="block-form__title">Отпраить заявку</h4>
+                        <p class="block-form__subtitle">Оставьте имя и номер телефона, а мы вам перезвоним</p>
+                        <form action="#">
+                            <div class="block-form__inputs">
+                                <input class="block-form__inputs-input" placeholder="Ваше имя*" type="text">
+                                <input class="block-form__inputs-input" placeholder="Ваш номер телефона*" type="number">
+                            </div>
+                            <input id="block-form__check" type="checkbox"><label class="block-form__check-lable" for="block-form__check">Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных *</label>
+                            <button type="submit" class="block-form-btn">Отправить</button>
+                        </form>
+                    </div>
+                    <img class="contacts-wrapper__form-img phone-image" src="images/contacts/Device.png" alt="phone divase">
+                    <img class="contacts-wrapper__form-img  plane-image" src="images/contacts/Plant.png" alt="plane">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+       
+            <div class="footer-top">
+                <div class="container">
+                    <div class="footer-inner">
+                        <div class="logo">
+                            <a class="logo-link" href="#">
+                                <img class="logo-img" src="images/header/logo.svg" alt="logo">
+                            </a>
+                            <p class="logo-text">
+                                Аутсорсинговый контактный центр
+                            </p>
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item"><a class="nav__link" href="#">Услуги</a></li>
+                                <li class="nav__item"><a class="nav__link" href="#">Проекты</a></li>
+                                <li class="nav__item"><a class="nav__link" href="#">Кейсы</a></li>
+                                <li class="nav__item"><a class="nav__link" href="#">Клиенты</a></li>
+                                <li class="nav__item"><a class="nav__link" href="#">Вакансии</a></li>
+                                <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-inner">
+                        <p class="footer-bottom__text">2007-2022 © Все права защищены, копирование материалов запрещено.</p>
+                        <p class="footer-bottom__text">Политика конфиденциальности</p>
+                    </div>
+                </div>
+            </div>
+        
+    </footer> 
+
+
+    <script src="js/main.min.js"></script>
+</body>
+</html>
